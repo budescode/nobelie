@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>NOBELIE</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Colo Shop Template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="plugins/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+<style>
+	@media only screen and (max-width: 768px){
+		.navbar_menu{
+			display: inline-block;
+			float: right;
+		}
+	}
+
+	@media only screen and (max-width: 1024px) {
+		.jumbotron {
+		background-attachment: initial !important;
+		}
+		}
+
+</style>
+
+
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header trans_300">
+
+
+		<!-- Main Navigation -->
+
+		<div class="main_nav_container">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-12 text-right">
+						<div class="logo_container">
+						<a href="{% url 'home:home' %}" style="font-size: 35px; color: rgb(246, 64, 96);">
+						Nobelie
+						</a>
+						 <!-- <img alt="Brand" src="{% static 'img/logo/' %}" > -->
+							<!-- <a href="#">colo<span>shop</span></a> -->
+						</div>
+						<nav class="navbar" style="">
+							<ul class="navbar_menu" style="margin-left: 10px;">
+								<li><a href="">Login</a></li>
+								<li><a href="" style="border: 0.7px solid rgb(246, 64, 96);">Sign Up</a></li>
+								
+								
+								
+
+							</ul>
+<!-- 
+							<div class="hamburger_container">
+								<i class="fa fa-bars" aria-hidden="true"></i>
+							</div> -->
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+
+
+</head>
+<body>
+
+
+<div style="margin-top: 160px;" id="body_content">
+
+	<div class="container-fluid" > <!-- firse container-fluid -->
+	<div class="row">
+	<div class="col-md-12">
+	<div class="jumbotron" style="background-image: url('images/bg.jpeg'); background-attachment: initial; color: white; margin-top: -50px; height: 500px;" >
+	   <div class="page-header" style="margin-top: 100px;">
+	    <center><h2 style="color: white;"><b>Connecting the church</b></h2> </center>     
+	  </div>
+
+	  <center><p class="lead" style="color: white;">Nobelie is an online community that connects members from different churches.</p>
+	  <hr class="my-4">
+	   <p class="lead">
+	    <a class="btn btn-default btn-lg" style="background-color: rgb(246, 64, 96); color: white;" href="#" role="button">Join Now</a>
+	  </p>
+	  </center>
+	</div>
+	</div>
+	</div>
+	</div> <!-- end firse container-fluid -->
+
+
+
+
+
+<div class="container"> <!-- second container -->
+
+<div class="row">
+	<div class="col text-center">
+		<div class="section_title new_arrivals_title">
+			<h4>You can use nobelie to</h4>
+		</div>
+	</div>
+</div>
+
+<div class="row" style="margin-top: 40px; margin-bottom: 30px;">
+				
+
+
+<div class="card-deck">  <!-- this is the div where the whole cards are -->
+
+		<div class="card"> <!-- first card -->
+		<img class="card-img-top img-fluid" src="images/ministry5.jpg" alt="Card image">
+		<div class="product_bubble product_bubble_left product_bubble_red d-flex flex-column align-items-center"><span>Ministries</span></div>
+		<div class="card-body">
+		<p class="card-text"><b>Search and follow ministries around</b></p> <br>
+		<a href="#" class="btn btn-default" style="background-color: rgb(246, 64, 96); color: white;">Add your ministry</a>
+		</div>
+		</div> <!-- end first card -->
+
+
+		<div class="card"> <!-- second card -->
+		<img class="card-img-top img-fluid" src="images/friends.jpg" alt="Card image">
+		<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>Friends</span></div>
+		<div class="card-body">
+
+		<p class="card-text"><b>Search and follow friends going to your church and other churches</b></p> 
+		<a href="#" class="btn btn-default" style="background-color: rgb(246, 64, 96); color: white;">Find friends</a>
+		</div>
+		</div> <!-- end second card -->
+
+
+		<div class="card"> <!-- third card -->
+		<img class="card-img-top img-fluid" src="images/question3.jpg" alt="Card image">
+		<div class="product_bubble product_bubble_left product_bubble_red d-flex flex-column align-items-center"><span>Questions</span></div>
+		<div class="card-body">
+		<p class="card-text"><b style="font-weight: bolder;">Ask pressing questions and get answers from other members</b></p> 
+		<a href="#" class="btn btn-default" style="background-color: rgb(246, 64, 96); color: white;">Ask your question</a>
+		</div>
+		</div> <!-- end second card -->
+
+
+		<div class="card"> <!-- fourth card -->
+		<img class="card-img-top img-fluid" src="images/calendar7.jpg" alt="Card image">
+		<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>Events</span></div>
+		<div class="card-body">
+
+		<p class="card-text"><b>Find or add upcoming events</b></p> <br><br>
+		<a href="#" class="btn btn-default" style="background-color: rgb(246, 64, 96); color: white;">Create your event</a>
+		</div>
+		</div><!--  end fourth card -->
+
+
+</div>  <!-- end card-deck -->
+</div>
+</div>  <!-- end  second container -->
+
+
+
+		<div class="container-fluid"> <!-- the div for join colleagues -->
+		<div class="jumbotron" style="background-color: white;" >
+		<div class="row">
+		<div class="col-md-12 offset-md-1" >
+		<h5 style="color: rgb(229, 73, 176)"> <span style="font-size: 20px;">Join your colleagues, church members and friends on Nobelie.</span></h5><br>
+		<p>
+		<button class="btn btn-default" style="background-color: rgb(229, 73, 176); color: white; border-radius: 20px;">Join Nobelie</button>
+		</p>
+		</div>
+		</div>
+		</div>
+		</div> <!-- end the div for join colleagues -->
+
+
+
+
+
+
+
+
+</div> <!-- end #body_content -->
+
+
+
+
+	<!-- Footer -->
+
+	<footer class="footer" style="">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="footer_nav_container d-flex flex-sm-row flex-column align-items-center justify-content-lg-start justify-content-center text-center">
+						<ul class="footer_nav">
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Terms</a></li>
+							<li><a href="#">Privacy</a></li>
+
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="footer_social d-flex flex-row align-items-center justify-content-lg-end justify-content-center">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+</div>
+
+<script src="{% static 'home/js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'home/styles/bootstrap4/popper.js' %}"></script>
+<script src="{% static 'home/styles/bootstrap4/bootstrap.min.js' %}"></script>
+<script src="{% static 'home/plugins/Isotope/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'home/plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
+<script src="{% static 'home/plugins/easing/easing.js' %}"></script>
+<script src="{% static 'home/js/custom.js' %}"></script>
+</body>
+
+</html>
